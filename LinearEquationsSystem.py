@@ -107,7 +107,7 @@ class LinearEquationsSystem:
     
     # funkcja wywoływana przez użytkownika
     def solve(self):
-        self.print_matrix()
+        # self.print_matrix()
         flag = self.forwardElim()
         if flag != -1:
             print("Układ nie jest oznaczony\n")

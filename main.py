@@ -7,7 +7,7 @@ from myFunctions import print_vector
 
 
 # 2n+1 piramid wzdłuż każdej osi
-n = 8
+n = 2
 
 # Lista funkcji bazowych -> piramid
 eArr = []
@@ -41,7 +41,7 @@ systemSolver = LinearEquationsSystem(eArr, 100)
 x = systemSolver.solve()
 
 # wypisanie wektora, w celu sprawdzenia;
-print_vector(x, 2)
+# print_vector(x, 2)
 
 # stworzenie rozwiązania, mając funkcje bazowe i współczynniki
 u = Solution(eArr, x)
