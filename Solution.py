@@ -43,7 +43,7 @@ class Solution:
         # macierz wartości Z
         Z = [[0] * n for i in range(n)]
 
-        dx = float(2) / n
+        dx = 2.0 / n
         dy = dx
 
         for i in range(n):
