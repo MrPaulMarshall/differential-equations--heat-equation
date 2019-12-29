@@ -6,7 +6,7 @@ import numpy as np
 
 class Solution:
     # eArr - lista funkcji bazowych
-    # M - długośc tej listy - w zasadzie zbędna
+    # M - długośc tej listy
     # vec - lista obliczonych współczynników
     def __init__(self, eArr, vec):
         self.eArr = eArr
