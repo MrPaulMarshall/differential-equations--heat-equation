@@ -1,7 +1,7 @@
 # differential-equations--heat-equation
 My program solving heat equation in given area
 
-BaseFunction is class that represents base functions (e1, e2, ..., eN) of function space V, where eI: R2 -> R
+BaseFunction is class that represents base functions (e1, e2, ..., eN) of function space V, where eI: R2 -> R.
 I assume, that sought function u(x,y) is approximately linear combination of above functions.
 
 My base functions are pyramids, which means they have 4 faces in their domain and are 0 elsewhere.
