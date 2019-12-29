@@ -7,6 +7,6 @@ I assume, that sought function u(x,y) is approximately linear combination of abo
 My base functions are pyramids, which means they have 4 faces in their domain and are 0 elsewhere.
 Faces are represented by Brach class.
 
-After doing some math it turns out, that i can get vector of coefficients by solving a linear equations system, where matrix is obtained by calculating specific integrals.
+After doing some math it turns out, that I can get vector of coefficients by solving a linear equations system, where matrix is obtained by calculating specific integrals.
 
-At the end i draw graph of my solution, using matplotlib.
+At the end I draw graph of my solution, using matplotlib.
