@@ -10,3 +10,5 @@ Faces are represented by Brach class.
 After doing some math it turns out, that I can get vector of coefficients by solving a linear equations system, where matrix is obtained by calculating specific integrals.
 
 At the end I draw graph of my solution, using matplotlib.
+
+AT THE MOMENT THIS REPOSITORY IS MARKED AS ARCHIVED.
