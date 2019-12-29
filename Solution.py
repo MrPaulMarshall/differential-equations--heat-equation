@@ -66,7 +66,7 @@ class Solution:
         # kolorowanie od niebieskich
         # c = ax.pcolormesh(X, Y, Z, cmap='coolwarm', vmin=0.0, vmax=z_max)
 
-        ax.set_title('pcolormesh')
+        ax.set_title('Pawel-Marszal--heat-equation')
         # set the limits of the plot to the limits of the data
         ax.axis([X.min(), X.max(), Y.min(), Y.max()])
         fig.colorbar(c, ax=ax)
