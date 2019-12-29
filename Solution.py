@@ -14,7 +14,7 @@ class Solution:
         if(len(eArr) == len(vec)):
             self.M = len(eArr)
         else:
-            raise RuntimeError, "Niezgodna ilość piramid i współczynników"
+            raise RuntimeError, "Niezgodna ilość funkcji i współczynników"
 
     # oblicz wartość funkcji
     def f(self, x, y):
