@@ -7,7 +7,7 @@ from myFunctions import print_vector
 
 
 # 2n+1 piramid wzdłuż każdej osi
-n = 2
+n = 3
 
 # Lista funkcji bazowych -> piramid
 eArr = []
