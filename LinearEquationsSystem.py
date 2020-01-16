@@ -3,7 +3,7 @@
 from AreaIntegralCalculator import AreaIntegralCalculator
 from CurveIntegralCalculator import CurveIntegralCalculator
 import math
-from myFunctions import print_vector
+from myFunctions import printVector
 
 class LinearEquationsSystem:
     def __init__(self, eArr, N):
@@ -26,8 +26,8 @@ class LinearEquationsSystem:
 
     def print_matrix(self):
         for i in range(self.M):
-            print_vector(self.matrix[i], 2)
-        print ''
+            printVector(self.matrix[i], 2)
+        print('')
 
     # funkcja testująca dla danej macierzy
     def testSolve(self, matrix, M):

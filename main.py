@@ -3,11 +3,11 @@
 from BaseFunction import BaseFunction
 from LinearEquationsSystem import LinearEquationsSystem
 from Solution import Solution
-from myFunctions import print_vector
+from myFunctions import printVector
 
 
 # 2n+1 piramid wzdłuż każdej osi
-n = 3
+n = 1
 
 # Lista funkcji bazowych -> piramid
 eArr = []

@@ -22,5 +22,5 @@ def round(x, n):
     return math.floor(power * x) / power
 
 # funkcja do wypisania wektora z zadaną dokładnością
-def print_vector(vec, n):
-    print map(lambda a: round(a, 2), vec)
+def printVector(vec, n):
+    print(map(lambda a: round(a, 2), vec))
