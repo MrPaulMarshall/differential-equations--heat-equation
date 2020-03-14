@@ -23,15 +23,15 @@ for j in range(0, n+1):
         eArr.append( BaseFunction(n, i, j) )
 
 
-# # dopisuje piramidy na brzegu Dirichleta
-# #   na środku układu
-# eArr.append( BaseFunction(n, 0, 0) )
-# #   wzdłuż osi OY
-# for i in range(1, n+1):
-#     eArr.append( BaseFunction(n, 0, i) )
-# #   wzdłuż osi OX
-# for i in range(1, n+1):
-#     eArr.append( BaseFunction(n, i, 0) )
+# dopisuje piramidy na brzegu Dirichleta
+#   na środku układu
+#eArr.append( BaseFunction(n, 0, 0) )
+#   wzdłuż osi OY
+#for i in range(1, n+1):
+#    eArr.append( BaseFunction(n, 0, i) )
+#   wzdłuż osi OX
+#for i in range(1, n+1):
+#    eArr.append( BaseFunction(n, i, 0) )
 
 
 # przygotowanie macierzy, podaje tu dla jakiej ilości podziałów chcę liczyć całki
